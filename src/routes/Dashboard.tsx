@@ -1,9 +1,13 @@
+import Accordion from '@/components/Accordion';
+
 const Dashboard = () => {
   return (
     <>
-      <div></div>
+      <div>
+        <Accordion />
+      </div>
     </>
-  )
+  );
 };
 
 export default Dashboard;
