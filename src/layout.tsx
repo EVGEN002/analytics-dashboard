@@ -13,9 +13,9 @@ const Layout = ({ children }: LayoutProps) => {
     <div className="theme-zinc grid min-h-screen w-full grid-cols-[280px_1fr]">
       <Aside />
       <div className="flex flex-col p-4">
-        <Card className='p-4 min-h-full'>
+        <Card className="p-4 min-h-full">
           <Header />
-          <main>{children}</main>
+          <main className="mt-4">{children}</main>
         </Card>
       </div>
     </div>
